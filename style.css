@@ -1,0 +1,26 @@
+body{
+    font-family: 'Poppins', sans-serif;;
+}
+
+h1{
+    font-size: 40px;
+    font-family:'Poppins', sans-serif;
+    
+}
+.heading{
+    color:palevioletred;
+}
+
+#Half-page{
+   width:50%;
+   float:left;
+   
+  
+}
+
+#Half-page img{
+   width:43%;
+   padding-left: 100px;
+
+  
+}

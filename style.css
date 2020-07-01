@@ -76,18 +76,39 @@ h1{
 }
 .full-stack{
   
-  border:0px solid blue;
-  box-shadow: 3px 5px grey;
+  
+  box-shadow: 3px 5px 10px grey;
   width:30%;
   float:left;
   text-align: center;
   margin: 50px 30px;
+  padding:30px;
 
 }
 .card{
-    margin:50px 30px;
+   
     width:100%;
     padding: 50px 30px;
+    background-image:url("images/exp-bg.png");
+    background-position: left;
+    background-size:75px;
+    background-repeat: no-repeat;
+}
+#baby-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,skyblue);
+    border-image-slice: 1;
 }
 
-
+#experienced{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato,pink);
+    border-image-slice: 1;
+}
+footer p{
+    width:500px;
+    height: 100px;
+    margin: 400px;
+    font-size: 10px;
+    text-align: center;
+}
